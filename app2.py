@@ -12,8 +12,8 @@ import sys
 import time
 import json
 
-subscription_key = "00a43488db604aa0a5123d972e7272f7"
-endpoint = "https://20221030hi-ro-k.cognitiveservices.azure.com/"
+subscription_key = "yourkey"
+endpoint = "yourendpoint"
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
